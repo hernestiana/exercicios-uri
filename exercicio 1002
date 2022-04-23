@@ -7,5 +7,5 @@ int main()
 scanf("%lf", &raio);
 
 area= pi * raio * raio;
-printf("A = %lf\n", area);
+printf("A = %.4lf\n", area);
 }
