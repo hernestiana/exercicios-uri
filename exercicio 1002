@@ -1,11 +1,11 @@
 #include <stdio.h>
-#define N 3.14159
+#define pi 3.14159
 int main()
 {
  double raio, area;
  
 scanf("%lf", &raio);
 
-area= N * raio * raio;
+area= pi * raio * raio;
 printf("A = %lf\n", area);
 }
